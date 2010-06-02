@@ -12,10 +12,15 @@ Gem::Specification.new do |s|
   s.date = %q{2010-06-02}
   s.description = %q{Form dynamic fields}
   s.email = %q{info@byclosure.com}
+  s.extra_rdoc_files = [
+    "README"
+  ]
   s.files = [
     ".gitignore",
+     "README",
      "Rakefile",
      "VERSION",
+     "bc-htmlful.gemspec",
      "javascripts/dynamic-fields.js",
      "javascripts/dynamic-fields.prototype.js",
      "lib/htmlful.rb",
