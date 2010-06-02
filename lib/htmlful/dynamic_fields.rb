@@ -247,4 +247,3 @@ module Htmlful
     end
   end
 end
-
