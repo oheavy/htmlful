@@ -1,7 +1,7 @@
 module Htmlful
   module DynamicFields
     def add_remove_existing_sub_object_link_in_sub_form(sub_form, relationship_i18n_name)
-      concat sub_form.input(:_delete, :as => :hidden, :wrapper_html => {:class => 'remove'}, :input_html => {:class => "checkbox_remove"})
+      concat sub_form.input(:_destroy, :as => :hidden, :wrapper_html => {:class => 'remove'}, :input_html => {:class => "checkbox_remove"})
       concat content_tag(:li, link_to(t(:remove_nested_element, :resource_name => relationship_i18n_name), '#', :class => "remove_fieldset"))
     end
 
