@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bc-htmlful}
-  s.version = "0.0.7.localtracker"
+  s.version = "0.0.8.localtracker"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Duarte Henriques", "Vasco Andrade e Silva"]
-  s.date = %q{2010-06-02}
+  s.date = %q{2010-06-08}
   s.description = %q{Form dynamic fields}
   s.email = %q{info@byclosure.com}
   s.extra_rdoc_files = [
